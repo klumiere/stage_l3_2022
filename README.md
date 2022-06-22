@@ -12,7 +12,8 @@ Il contient:
 
   `* affiche_rep.php` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
-### Exemple d'input
+### Exemple d'input  
+
 civ sélectionné "Monsieur"
 nom= LUMIERE 
 prenom= Florian
@@ -20,18 +21,20 @@ adr_mail_1=lumiere.florian
 adr_mail_2=gmail.com
 adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
-~Exemple d'output~
+
+### Exemple d'output  
 
 
 
+"Bonjour Florian LUMIERE! Nous vous enverrons un mail à l'adresse suivante: lumiere.florian@gmail.com et à l'adresse postale suivante: 32 Rue du Pont Neuf 91160 SLC"
 
-"Bonjour nom prenom! Nous vous enverrons un mail à l'adresse suivante 
+
 
 * le dossier csv_form qui contient lui-même: 
 
-  `* form_csv.html` permettant d'afficher un formulaire dans lequel un utilisateur peut entrer ses informations telles que Nom, Prénom, adresse mail
+  `* form_csv.html` permettant à un utilisateur de saisir une taille de longueur minimale, une taille de longueur maximale ainsi qu'une résolution maximale d'ARN.
 
-  `* affiche_csv.php` permettant de récupérer les information entrées précedemment par l'utilisateur et de les utiliser pour lui afficher un message dans une nouvelle page.
+  `* affiche_csv.php` permettant de récupérer les informations qui ont été précedemment saisies par l'utilisateur et d'afficher uniquement les lignes de la table Structure de la base de données qui répondent aux critères choisi par l'utilisateur.
 
 
 * le dossier data qui contient lui-même:
@@ -58,7 +61,7 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
  
 
 Il est lié aux fichiers se trouvant dans le dossier kamely_files.
-
+ 
 
 
 
