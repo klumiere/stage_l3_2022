@@ -1,10 +1,8 @@
-# stage_l3_2022
+# Stage L3 2022
 
 
-Stage L3 2022
 
-
-Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 permttant de réaliser une interface graphique de la base de données RNAnet.
+Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'obréaliser une interface graphique de la base de données RNAnet.
 
 Il contient:
 
