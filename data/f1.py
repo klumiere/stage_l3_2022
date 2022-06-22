@@ -34,7 +34,7 @@ with open ("sample_query_output.txt",'r') as fichierlecture: # ouvre le fichier 
             #importation des librairies javascript de datables
             fichierecriture.write("<script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.js'></script><script type='text/javascript' src='https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js'></script><script type='text/javascript' src='f1.js'></script> \n")
     
-            fichierecriture.write("<link rel='stylesheet' href='s1.css'></head><body>") 
+            fichierecriture.write("<link rel='stylesheet' href='f1.css'></head><body>") 
             
             #affiche le nom des colonnes "code pdb/ num/Date/technique"
             fichierecriture.write("<table id='example' class='display'style='width:100%'><thead><tr><th>Code pdb</th><th>num</th><th>Date</th><th>Technique</th><th>Résolution</th></tr></thead>\n")
