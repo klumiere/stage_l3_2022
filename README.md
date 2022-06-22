@@ -8,6 +8,26 @@ Ce dépot contient les différents travaux que j'ai réalisé au cours de mon st
 
 Il contient:
 
+- le dossier FORM qui contient lui-même:
+
++ un fichier form_simple.html permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer
++ un fichier affiche_rep.php qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé. 
+
+~Exemple d'input~
+civ sélectionné "Monsieur"
+nom= LUMIERE 
+prenom= Florian
+adr_mail_1=lumiere.florian
+adr_mail_2=gmail.com
+adr_pos= 32 Rue du Pont Neuf 91160 SLC
+
+~Exemple d'output~
+
+
+
+
+"Bonjour nom prenom! Nous vous enverrons un mail à l'adresse suivante 
+
 - le dossier csv_form qui contient lui-même: 
 
 +un fichier form_csv.html permettant d'afficher un formulaire dans lequel un utilisateur peut entrer ses informations telles que Nom, Prénom, adresse mail
