@@ -56,9 +56,9 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
   
 
 
-* le dossier kamely_files qui contient lui-même:
+  * le dossier kamely_files qui contient lui-même:
 
-`* molstar.js` copié du site de Mol* qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
+  `* molstar.js` copié du site de Mol* qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
 
   `* aaa.js`
 
