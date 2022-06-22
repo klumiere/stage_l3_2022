@@ -8,7 +8,7 @@ Il contient:
 
 * le dossier FORM qui contient lui-même:
 
-  `* form_simple.html`permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer  
+  `* form_simple.html` permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer  
 
   `* affiche_rep.php` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
@@ -31,7 +31,7 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
   `* form_csv.html` permettant d'afficher un formulaire dans lequel un utilisateur peut entrer ses informations telles que Nom, Prénom, adresse mail
 
-  `* un fichier affiche_csv.php` permettant de récupérer les information entrées précedemment par l'utilisateur et de les utiliser pour lui afficher un message dans une nouvelle page.
+  `* affiche_csv.php` permettant de récupérer les information entrées précedemment par l'utilisateur et de les utiliser pour lui afficher un message dans une nouvelle page.
 
 
 * le dossier data qui contient lui-même:
@@ -45,7 +45,7 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
 * le dossier kamely_files qui contient lui-même:
 
-`*un fichier molstar.js` copié du site de Mol* qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
+`* molstar.js` copié du site de Mol* qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
 
   `* aaa.js`
 
