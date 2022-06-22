@@ -2,11 +2,14 @@
 
 import sys
 
-#with open(sys.argv[1],'r') as fichierlecture:  # ouvre le fichier contenant le résultat de la requête
+# ouvre le fichier contenant le résultat de la requête
 
-with open ("sample_query_output.txt",'r') as fichierlecture: # ouvre le fichier contenant le résultat de la requête
+with open(sys.argv[1],'r') as fichierlecture:   # ouvre le fichier donnée en argument dans la commande entrée
+
+#with open ("sample_query_output.txt",'r') as fichierlecture: # ouvre le fichier contenant le résultat de la requête
 
 #définition des colonnes de la table
+    
     
     col0=[]
     col1=[]
@@ -47,7 +50,7 @@ with open ("sample_query_output.txt",'r') as fichierlecture: # ouvre le fichier 
         
         
             #on réaffiche le nom des colonnes      
-    fichierecriture.write(" </tbody><tfoot><tr><th>Nom du pdb</th><th>num</th><th>Date</th><th>Technique</th><th>Résolution</th></tr></tfoot></table></body></html>")
+            fichierecriture.write("</tbody><tfoot><tr><th>Nom du pdb</th><th>num</th><th>Date</th><th>Technique</th><th>Résolution</th></tr></tfoot></table></body></html>")
     
     
     
