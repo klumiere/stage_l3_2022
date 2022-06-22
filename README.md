@@ -9,7 +9,7 @@ Il contient:
 * le dossier FORM qui contient lui-même:
 
 `* un fichier form_simple.html `permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer  
-`* un fichier affiche_rep.php qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.` 
+`* un fichier affiche_rep.php ` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
 ~Exemple d'input~
 civ sélectionné "Monsieur"
@@ -28,8 +28,8 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
 * le dossier csv_form qui contient lui-même: 
 
-`* un fichier form_csv.html permettant d'afficher un formulaire dans lequel un utilisateur peut entrer ses informations telles que Nom, Prénom, adresse mail
-+un fichier affiche_csv.php permettant de récupérer les information entrées précedemment par l'utilisateur et de les utiliser pour lui afficher un message dans une nouvelle page. `
+`* un fichier form_csv.html` permettant d'afficher un formulaire dans lequel un utilisateur peut entrer ses informations telles que Nom, Prénom, adresse mail
+`*un fichier affiche_csv.php` permettant de récupérer les information entrées précedemment par l'utilisateur et de les utiliser pour lui afficher un message dans une nouvelle page.
 
 
 * le dossier data qui contient lui-même:
