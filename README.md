@@ -12,7 +12,7 @@ Il contient:
 
   `* affiche_rep.php` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
-~Exemple d'input~
+###Exemple d'input
 civ sélectionné "Monsieur"
 nom= LUMIERE 
 prenom= Florian
