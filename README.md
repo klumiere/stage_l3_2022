@@ -38,7 +38,7 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
   `* sample_query_output.txt` qui est 
 
-  `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de Datatables pour  avoir un affichage interactif des tables de la base de données. `
+  `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de  [DataTables](https://datatables.net/) pour  avoir un affichage interactif des tables de la base de données. `
 
   `* f1.js`  
   `* f1.css`
@@ -54,7 +54,8 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
   `* beacon.jss`
 
 
-  `* kamely.html` permet d'afficher la structure 3D des ARN du fichier sample_query_output.txt grâce au viewer Mol*.
+  `* kamely.html` permet d'afficher la structure 3D des ARN du fichier sample_query_output.txt grâce au viewer [Mol*](https://molstar.org/).
+ 
 
 Il est lié aux fichiers se trouvant dans le dossier kamely_files.
 
