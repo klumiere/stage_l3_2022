@@ -8,7 +8,7 @@ Il contient:
 
 * le dossier FORM qui contient lui-même:
 
-`* un fichier form_simple.html `permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer  
+` un fichier form_simple.html `permettant d'afficher un formulaire qui permet à un utilisateur de choisir sa civilité, de saisir son nom, prénom, adresse mail et postale et de l'envoyer  
 
 `* un fichier affiche_rep.php ` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
