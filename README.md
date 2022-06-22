@@ -51,6 +51,12 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
   `* f1.js`  
   `* f1.css`
+  
+  ## Exemple
+  
+  ```markdown
+$ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 4 -f examples/pbmtx/a_9.pbmtx -s 1000
+```
 
 * le dossier kamely_files qui contient lui-même:
 
