@@ -12,18 +12,24 @@ Il contient:
 
   `* affiche_rep.php` qui est un script php qui récupère les données saisies par l'utilisateur et les utilise pour afficher un message personnalisé.
 
-### Exemple d'input  
+### Exemple
+
+## input
 
 civ sélectionné "Monsieur"
+
 nom= LUMIERE 
+
 prenom= Florian
+
 adr_mail_1=lumiere.florian
+
 adr_mail_2=gmail.com
+
 adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
 
-### Exemple d'output  
-
+##output  
 
 
 "Bonjour Florian LUMIERE! Nous vous enverrons un mail à l'adresse suivante: lumiere.florian@gmail.com et à l'adresse postale suivante: 32 Rue du Pont Neuf 91160 SLC"
