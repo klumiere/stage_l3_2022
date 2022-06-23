@@ -51,8 +51,15 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
   `* f1.js`  
   `* f1.css`
+
+
+## Exemple
+
+### input
+  ```markdown
+  $ ./stage_l3_2022/data/ python 
   
-  ## Exemple
+  ```
   
 
 
