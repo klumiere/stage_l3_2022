@@ -51,18 +51,21 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
 
   `* form_csv.html` permettant à un utilisateur de saisir une taille de longueur minimale, une taille de longueur maximale ainsi qu'une résolution maximale d'ARN.
 
-  `* affiche_csv.php` permettant de récupérer les informations qui ont été précedemment saisies par l'utilisateur et d'afficher uniquement les lignes de la table Structure de la base de données qui répondent aux critères choisis par l'utilisateur.
+  `* affiche_csv.php` permettant de récupérer les informations qui ont été précedemment saisies par l'utilisateur et d'afficher uniquement les code_pdb qui répond aux critères saisies. 
+  
+  A noter: Il est nécessaire de télécharger les fichiers textes (CSV) des ARN dans le site https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet pour faire fonctionner le code des fichiers form_csv.html et affiche_csv.php.
 
 
 * le dossier data qui contient lui-même:
 
-  `* sample_query_output.txt` qui un extrait du résultat de la requête SELECT* FROM Structure; . Il contient des code_pdb avec leur  
+  `* sample_query_output.txt` qui un fichier contenant un extrait du résultat de la requête SELECT* FROM Structure; . Il contient des code_pdb (4 caractères commençant par un chiffre)  avec la méthode expérimentale, la résolution, la date, le modèle pdb (caractère à un chiffre) qui leur sont associés.
   
   `* f1.js`  
-  `* f1.css`
+  `* f1.css`qui permet de gérer les couleurs, la disposition de la page.
 
-  `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de  [DataTables](https://datatables.net/) pour  avoir un affichage interactif des tables de la base de données. Il permet également à ce que lorsque l'on clique sur un code pdb, la structure 3D de cet ARN (avec le viewer Mol*) apparaisse dans un nouvel onglet.`
-
+  `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de  [DataTables](https://datatables.net/) pour  avoir un affichage interactif des tables de la base de données. Il permet également à ce que lorsque l'on clique sur un code pdb, la structure 3D de cet ARN (avec le viewer Mol*) apparaisse dans un nouvel onglet.
+  
+  `* f1.html` qui contient le code html généré par le script f1.py. Celui-ci contient la classe "stripe" dans la balise <table id="example" class="stripe" style="width:100%"> et permet ainsi d'afficher les lignes du tableau en gris et blanc en alternace donnant un effet rayure "Stripe" en anglais.
   
 ## Exemple
 
@@ -83,7 +86,7 @@ Le fichier f1.html est créé et permet d'afficher la page contenant la table St
 
   `* aaa.js`est un script permettant de récupérer les variables que l'on rajoute après un ? dans l'adresse URL.
 
-  `* molstar.css`
+  `* molstar.css`qui permet de gérer les couleurs, la disposition de la page. Ce fichier provient du site Mol*.
 
   `* beacon.jss`
 
