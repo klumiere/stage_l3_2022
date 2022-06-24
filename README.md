@@ -16,23 +16,29 @@ Il contient:
 
 ### input
 
-civ sélectionné "Monsieur"
+Sélectionner Mme
 
-nom= LUMIERE 
+Entrez dans la case Nom: 
+LUMIERE 
 
-prenom= Florian
+Entrez dans la case Prénom:
+Kamély
 
-adr_mail_1=lumiere.florian
+Entrer dans la 1ère case de l'Adresse mail: 
+kamely
 
-adr_mail_2=gmail.com
+Entrer dans la 2ème case de l'Adresse mail: 
+gmail.com
 
-adr_pos= 32 Rue du Pont Neuf 91160 SLC
+Entrez dans la case Adresse postale:
+Rue Henri Dunant 91160 LONGJUMEAU
 
 
 ### output  
 
+Vous obtiendrez ceci: 
 
-"Bonjour Florian LUMIERE! Nous vous enverrons un mail à l'adresse suivante: lumiere.florian@gmail.com et à l'adresse postale suivante: 32 Rue du Pont Neuf 91160 SLC"
+Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kamely@gmail.com et à l'adresse postale suivante: Rue Henri Dunant 91160 LONGJUMEAU
 
 
 
@@ -65,9 +71,9 @@ adr_pos= 32 Rue du Pont Neuf 91160 SLC
 
   * le dossier kamely_files qui contient lui-même:
 
-  `* molstar.js` copié du site de Mol* qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
+  `* molstar.js` copié du site de [Mol*](https://molstar.org/) qui est un script en javascript auquel j'ai remplacé une chaine de caractère par une variable code_pdb qui correspond au code_pdb sur lequel l'utilisateur a cliqué et qui va être récupéré par un autre script "aaa.js" pour afficher la structure 3D de l'ARN en question.
 
-  `* aaa.js`
+  `* aaa.js`est un script permettant de récupérer les var
 
   `* molstar.css`
 
