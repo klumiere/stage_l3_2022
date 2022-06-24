@@ -2,7 +2,7 @@
 
 
 
-###### Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'objectif était de réaliser une interface graphique de la base de données [RNAnet](https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet).
+###### Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'objectif était de réaliser une interface graphique pour la base de données [RNAnet](https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet).
 
 Il contient:
 
@@ -65,7 +65,7 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
 
   `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de  [DataTables](https://datatables.net/) pour  avoir un affichage interactif des tables de la base de données. Il permet également à ce que lorsque l'on clique sur un code pdb, la structure 3D de cet ARN (avec le viewer Mol*) apparaisse dans un nouvel onglet.
   
-  `* f1.html` qui contient le code html généré par le script f1.py. Celui-ci contient la classe "stripe" dans la balise <table id="example" class="stripe" style="width:100%"> et permet ainsi d'afficher les lignes du tableau en gris et blanc en alternace donnant un effet rayure "Stripe" en anglais.
+  `* f1.html` qui contient le code html généré par le script f1.py. Celui-ci contient la classe "stripe" dans la balise <table id="example" class="stripe" style="width:100%"> et permet ainsi d'afficher les lignes du tableau en gris et blanc en alternance donnant un effet rayure "Stripe" en anglais.
   
 ## Exemple
 
@@ -76,7 +76,10 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
   ```
 ### output
 
-Le fichier f1.html est créé et permet d'afficher la page contenant la table Structure de RNAnet avec la librairie [DataTables](https://datatables.net/). Chaque ligne correspond à un code _pdb et les colonnes indiquent le modèle pdb qui est un caractère, la date de découverte de l'ARN, la méthode expérimentale utilisé pour prédire la structure 3D ce cet ARN. En ouvrant cet page html avec un navigateur, on observe le résultat suivant:
+Le fichier f1.html est créé et permet d'afficher la page contenant la table Structure de RNAnet avec la librairie [DataTables](https://datatables.net/). 
+Chaque ligne correspond à un code _pdb. Pour chaque code_pdb, on a le numéro du modèle qui est un nombre ( toujours 1) car seules les structures produites par RMN possèdent plusieurs modèles, or RNANet ne contient que les structures qui ont été découvertes par cristallographie X-ray et par cryo-electromicroscopie. On retrouve également la date de découverte de la structure 3D de l'ARN, la méthode expérimentale qui a été utilisée pour prédire cette structure.
+  
+En ouvrant cet page html avec un navigateur, on observe le résultat suivant:
   
   
   ![image](https://user-images.githubusercontent.com/105880255/175695918-1f4ff27d-b1f9-4c88-bf73-cc6bed579f71.png)
