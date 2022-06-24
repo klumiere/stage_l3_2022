@@ -19,18 +19,23 @@ Il contient:
 Sélectionner Mme
 
 Entrez dans la case Nom: 
+
 LUMIERE 
 
 Entrez dans la case Prénom:
+
 Kamély
 
 Entrer dans la 1ère case de l'Adresse mail: 
+
 kamely
 
 Entrer dans la 2ème case de l'Adresse mail: 
+
 gmail.com
 
 Entrez dans la case Adresse postale:
+
 Rue Henri Dunant 91160 LONGJUMEAU
 
 
