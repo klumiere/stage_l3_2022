@@ -71,7 +71,9 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
   $ ./stage_l3_2022/data/ python3 f1.py sample_query_output.txt
   
   ```
-  
+### output
+
+Le fichier f1.html est créé et permet d'afficher la page contenant la table Structure de RNAnet avec la librairie [DataTables](https://datatables.net/). Chaque ligne correspond à un code _pdb et les colonnes indiquent le modèle pdb qui est un caractère, la date de découverte de l'ARN, la méthode expérimentale utilisé pour pré
   
 
 
