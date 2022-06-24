@@ -46,6 +46,9 @@ with open(sys.argv[1],'r') as fichierlecture:   # ouvre le fichier donnée en ar
             # boucle for permettant d'afficher les attributs d'un code_pdb situé à la ligne i du fichier de lecture dans la bonne colonne
             for i in range (len(col0)):
     
+                  #balise href permet d'afficher la structure 3D du code pdb sélectionné à l'aide du viewer Mol*
+                  #balise target='_blank' permet d'afficher le viewer dans un nouvel onglet
+            
                   fichierecriture.write("<tr><td><a href=file:///home/lumiere/kamely.html?"+col0[i]+" target='_blank'>"+col0[i]+"</a></td><td>"+col1[i]+"</td><td>"+col2[i]+"</td><td>"+col3[i]+"</td><td>"+col4[i]+"</td></tr>\n")
         
         
