@@ -40,7 +40,7 @@ with open(sys.argv[1],'r') as fichierlecture:   # ouvre le fichier donnée en ar
             fichierecriture.write("<link rel='stylesheet' href='f1.css'></head><body>") 
             
             #affiche le nom des colonnes "code pdb/ num/Date/technique"
-            fichierecriture.write("<table id='example' class='display'style='width:100%'><thead><tr><th>Code pdb</th><th>num</th><th>Date</th><th>Technique</th><th>Résolution</th></tr></thead>\n")
+            fichierecriture.write("<table id='example' class='display'style='width:100%'><thead><tr><th>Code pdb</th><th> Modèle pdb </th><th>Date</th><th>Méthode expérimentale</th><th>Résolution</th></tr></thead>\n")
     
     
             # boucle for permettant d'afficher les attributs d'un code_pdb situé à la ligne i du fichier de lecture dans la bonne colonne
@@ -53,7 +53,7 @@ with open(sys.argv[1],'r') as fichierlecture:   # ouvre le fichier donnée en ar
         
         
             #on réaffiche le nom des colonnes      
-            fichierecriture.write("</tbody><tfoot><tr><th>Nom du pdb</th><th>num</th><th>Date</th><th>Technique</th><th>Résolution</th></tr></tfoot></table></body></html>")
+            fichierecriture.write("</tbody><tfoot><tr><th>Code pdb</th><th>Modèle pdb</th><th>Date</th><th>Méthode expérimentale</th><th>Résolution</th></tr></tfoot></table></body></html>")
     
     
     
