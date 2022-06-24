@@ -2,7 +2,7 @@ queryString=window.location.search;
 console.log(queryString);// récupère tout ce qu'il y a écrit après le ? (avec le "? "inclu) quand on écrit dans l'adresse un ? suivi de variables
 
 
-const urlParams=new URLSearchParams (queryString);
+const urlParams=new URLSearchParams (queryString); //URLSearchParams est une interface permettant de définir des méthodes pour manipuler l'URL
 
 //const snap=urlParams.get('snapshot-url') // récupère la 1ère variable après le ?
 //console.log(snap);
@@ -10,11 +10,7 @@ const urlParams=new URLSearchParams (queryString);
 //const type=urlParams.get('snapshot-url-type') // récupère la 2ème variable après le ? qui est juste après le &
 //console.log(type);
 
-const
-
-keys=urlParams.keys(),
-values=urlParams.values(),
-entries=urlParams.entries();
+const keys=urlParams.keys(),values=urlParams.values(),entries=urlParams.entries();
 
 //for (const key of keys) console.log(key);
 
