@@ -2,7 +2,7 @@
 
 
 
-###### Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'obréaliser une interface graphique de la base de données [RNAnet](https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet).
+###### Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'objectif était de réaliser une interface graphique de la base de données [RNAnet](https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet).
 
 Il contient:
 
