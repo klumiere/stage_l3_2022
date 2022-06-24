@@ -1,5 +1,7 @@
 # Stage L3 2022
 
+Kamély LUMIÈRE
+
 
 
 ###### Ce dépot contient les différents travaux que j'ai réalisé au cours de mon stage de L3 dont l'objectif était de réaliser une interface graphique pour la base de données [RNAnet](https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet).
