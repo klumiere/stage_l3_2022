@@ -61,7 +61,7 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
   `* sample_query_output.txt` qui un fichier contenant un extrait du résultat de la requête SELECT* FROM Structure; . Il contient des code_pdb (4 caractères commençant par un chiffre)  avec la méthode expérimentale, la résolution, la date, le modèle pdb (caractère à un chiffre) qui leur sont associés.
   
   `* f1.js`  
-  `* f1.css`qui permet de gérer les couleurs, la disposition de la page.
+  `* f1.css`qui permet de gérer les couleurs, la disposition de la page avec la présence de bordures (cell-border), une alternance de la couleur des lignes entre gris et blanc (classe stripe). Ce code est issu du site https://datatables.net/examples/styling/display.html.
 
   `* f1.py` qui est un script écrit en python permettant d'ouvrir en fichier de lecture "sample_query_output.txt", de le parser et de créer un fichier "f1.html" et d'y écrire les balises html notamment les balises <script> </script> qui permettent de charger la librairie Javascript de  [DataTables](https://datatables.net/) pour  avoir un affichage interactif des tables de la base de données. Il permet également à ce que lorsque l'on clique sur un code pdb, la structure 3D de cet ARN (avec le viewer Mol*) apparaisse dans un nouvel onglet.
   
@@ -95,6 +95,7 @@ Le fichier f1.html est créé et permet d'afficher la page contenant la table St
  
 
 
+![image](https://user-images.githubusercontent.com/105880255/175693919-6f73a7c9-ea15-488c-afce-a50d5b501145.png)
 
 
 
