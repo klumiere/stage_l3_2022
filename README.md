@@ -76,7 +76,17 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
   ```
 ### output
 
-Le fichier f1.html est créé et permet d'afficher la page contenant la table Structure de RNAnet avec la librairie [DataTables](https://datatables.net/). Chaque ligne correspond à un code _pdb et les colonnes indiquent le modèle pdb qui est un caractère, la date de découverte de l'ARN, la méthode expérimentale utilisé pour pré
+Le fichier f1.html est créé et permet d'afficher la page contenant la table Structure de RNAnet avec la librairie [DataTables](https://datatables.net/). Chaque ligne correspond à un code _pdb et les colonnes indiquent le modèle pdb qui est un caractère, la date de découverte de l'ARN, la méthode expérimentale utilisé pour prédire la structure 3D ce cet ARN. En ouvrant cet page html avec un navigateur, on observe le résultat suivant:
+  
+  
+  ![image](https://user-images.githubusercontent.com/105880255/175695918-1f4ff27d-b1f9-4c88-bf73-cc6bed579f71.png)
+
+  
+  En cliquant sur un pdb (ici 7oiz), on peut obtenir la structure 3D ce cet ARN grâce au viewer Mol* comme ci-dessous:
+  
+  ![image](https://user-images.githubusercontent.com/105880255/175696148-0ecf27e2-bb79-40ef-8b41-4bb848ed7e2a.png)
+
+  
   
 
 
@@ -95,7 +105,7 @@ Le fichier f1.html est créé et permet d'afficher la page contenant la table St
  
 
 
-![image](https://user-images.githubusercontent.com/105880255/175693919-6f73a7c9-ea15-488c-afce-a50d5b501145.png)
+
 
 
 
