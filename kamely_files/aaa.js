@@ -1,5 +1,5 @@
 queryString=window.location.search; 
-console.log(queryString);// récupère tout ce qu'il y a écrit après le ?
+console.log(queryString);// récupère tout ce qu'il y a écrit après le ? (avec le "? "inclu) quand on écrit dans l'adresse un ? suivi de variables
 
 
 const urlParams=new URLSearchParams (queryString);
