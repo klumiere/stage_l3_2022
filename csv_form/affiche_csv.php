@@ -20,7 +20,7 @@ while($fichier = readdir($dossier))
     $lignes=$lines-1; /*la longueur de la sequence fait le nb de lignes du fichier -1 car la séquence est lu de haut en bas*/
     
 if (($lignes>$taille_min_seq) && ($lignes<$taille_max_seq)){ /* si la longueur de la séquence est comprise dans l'intervalle demandé on affiche le nom du fichier suivi de sa longueur*/
-echo $fichier. "  Le nombre de lignes est". $lignes . "<br>";
+echo $fichier. "  La taille de la séquence est ". $lignes . "<br>";
 }
 
 
