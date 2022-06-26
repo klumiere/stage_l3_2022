@@ -57,6 +57,16 @@ Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kame
   
   A noter: Il est nécessaire de télécharger les fichiers textes (CSV) des ARN dans le site https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet pour faire fonctionner le code des fichiers form_csv.html et affiche_csv.php.
 
+## Exemple
+
+### input
+
+![image](https://user-images.githubusercontent.com/105880255/175819950-daae9f6f-2ebd-487d-8501-da68fa5b6e5f.png)
+
+### output
+
+![image](https://user-images.githubusercontent.com/105880255/175820041-590ee7d4-fbae-465d-bd16-fc04e35320ae.png)
+
 
 * le dossier data qui contient lui-même:
 
