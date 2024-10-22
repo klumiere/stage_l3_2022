@@ -34,18 +34,18 @@ kamely
 
 Entrer dans la 2ème case de l'Adresse mail: 
 
-gmail.com
+mail.com
 
 Entrez dans la case Adresse postale:
 
-Rue Henri Dunant 91160 LONGJUMEAU
+Rue Henri Dunant 95000 PARIS
 
 
 ### output  
 
 Vous obtiendrez ceci: 
 
-Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kamely@gmail.com et à l'adresse postale suivante: Rue Henri Dunant 91160 LONGJUMEAU
+Bonjour Kamély LUMIERE! Nous vous enverrons un mail à l'adresse suivante: kamely@mail.com et à l'adresse postale suivante: Rue Henri Dunant 95000 PARIS
 
 
 
